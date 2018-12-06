@@ -9,7 +9,7 @@
 ---
 ## 진행상황
 * pwnable.kr Toddler 이전 완료
-* sjkim.net 이전 중
+* sjkim.net 일부 이전 완료
 * wargame.kr 이전 중
 * xcz.kr 이전 중
 ---
