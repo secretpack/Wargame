@@ -61,7 +61,10 @@ int main(int argc, char* argv[]){
 * ![링크1](https://bpsecblog.wordpress.com/2016/10/06/heap_vuln/) Hackers on the Ship 블랙펄 화이팅!
 * ![링크2](http://www.hackerschool.org/HS_Boards/data/Lib_system/doublefree.txt) Hackerschool
 
-두 개의 문서를 보고 풀이를 보시면 좀더 편합니다!
+두 개의 문서를 보고 풀이를 보시면 좀더 편합니다!  
+
+---
+# 분석
 ```c
 gets(A->buf);
 

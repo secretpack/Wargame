@@ -148,6 +148,8 @@ memcpy@ubuntu:~$
 ```
 secretpack@ubuntu:~$ sudo apt-get install gcc-multilib libc6-dev-i386
 ```
+---
+# 분석
 이제 nc에 접속해서 문제를 보도록 합시다.
 ```
 Hey, I have a boring assignment for CS class.. :(

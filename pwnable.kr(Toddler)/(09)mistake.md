@@ -73,6 +73,8 @@ int main(int argc, char* argv[]){
 	return 0;
 }
 ```
+---
+# 분석  
 우리가 주의 깊게 봐야할 부분은 다음과 같습니다.
 ```c
 if(fd=open("/home/mistake/password",O_RDONLY,0400) < 0){

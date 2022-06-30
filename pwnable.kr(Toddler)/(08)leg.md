@@ -23,8 +23,8 @@ CPU는 CLOCK 신호에 따라 명령을 처리하도록 설계되어 있습니�
 문제 풀이에 있어 다음을 숙지하면 좋습니다.
 * ARM : 32bit RISC Machine
 * Thum b : 16bit RISC Machine
-
-#분석
+---
+# 분석
 먼저 C코드를 분석해봅시다.
 ```c
 #include <stdio.h>

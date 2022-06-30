@@ -7,7 +7,10 @@ ssh horcruxes@pwnable.kr -p2222 (pw:guest)
 
 ---  
 # 개요  
-ROP 문제라고 대 놓고 문제에서 알려주네요 우선 바이너리를 가져와봅시다.  
+ROP 문제라고 대 놓고 문제에서 알려주네요 우선 바이너리를 가져와봅시다. 
+
+---
+# 분석 
 ```c
 int __cdecl main(int argc, const char **argv, const char **envp)
 {
@@ -179,7 +182,4 @@ Select Menu:
 How many EXP did you earned? :
 [*] Switching to interactive mode
 Magic_spell_1s_4vad4_K3daVr4!
-```
-
-
 ```

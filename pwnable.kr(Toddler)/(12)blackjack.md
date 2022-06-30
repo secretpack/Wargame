@@ -29,6 +29,8 @@ int betting() //Asks user amount to bet
  else return bet;
 } // End Function
 ```
+---
+# 분석
 if문을 통해 한번만 검증하기 때문에 돈을 크게 넣고 이기거나 음수 값을 넣고 게임을 지는 것도 하나의 방법이 될 것입니다.
 ```
 YaY_I_AM_A_MILLIONARE_LOL
