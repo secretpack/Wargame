@@ -64,10 +64,11 @@ unsigned int init_ABCDEFG()
   return result;
 
 ```
-urandom을 시드로 a~g 변수를 각각 랜덤하게 생성합니다.
-result 변수에는 a~g 변수의 합이 저장됩니다.
+urandom을 시드로 a ~ g 변수를 각각 랜덤하게 생성합니다.  
 
-이후 이 값은 rompe() 함수에서 씁니다.
+result 변수에는 a ~ g 변수의 합이 저장됩니다.  
+
+이후 이 값은 ```rompe()``` 함수에서 씁니다.
 ```c
 printf("Select Menu:");
 __isoc99_scanf("%d", &v2);
