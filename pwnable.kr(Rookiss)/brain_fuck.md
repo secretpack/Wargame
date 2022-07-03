@@ -104,7 +104,7 @@ int __cdecl do_brainfuck(char a1)
 ---
 # 분석
 
-Partial RELRO 이므로 got Overwrite 가 가능하다. 따라서 libc leak을 수행한 뒤 ```memset@got``` 를 ```gets()```로 변경하고, ```fgets@got```를 ```system()```으로 변경한다, 마지막으로 ```putchar@got```를 ```main()``` 으로 변경하면, ```do_brainfuck()``` 함수에서 다시 ```main()```함수로 돌아와 ```gets()``` 함수로 입력받을 때, "/bin/sh" 를 입력한다면 쉘을 획득할 수 있을 것이다. 해당 내용을 바탕으로 exploit code를 작성한다.  
+Partial RELRO 이므로 got Overwrite 가 가능합니다. 따라서 libc leak을 수행한 뒤 ```memset@got``` 를 ```gets()```로 변경하고, ```fgets@got```를 ```system()```으로 변경한다, 마지막으로 ```putchar@got```를 ```main()``` 으로 변경하면, ```do_brainfuck()``` 함수에서 다시 ```main()```함수로 돌아와 ```gets()``` 함수로 입력받을 때, "/bin/sh" 를 입력한다면 쉘을 획득할 수 있을 것입니다. 해당 내용을 바탕으로 exploit code를 작성합니다.  
 ```python
 from pwn import*
 
